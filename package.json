@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "test coverage for [bignum (v0.12.5)](https://github.com/justmoon/node-bignum#readme) [![npm package](https://img.shields.io/npm/v/npmtest-bignum.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bignum) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bignum.svg)](https://travis-ci.org/npmtest/node-npmtest-bignum)",
+    "description": "#### basic test coverage for  [bignum (v0.12.5)](https://github.com/justmoon/node-bignum#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-bignum.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bignum) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bignum.svg)](https://travis-ci.org/npmtest/node-npmtest-bignum)",
     "devDependencies": {
         "bignum": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",

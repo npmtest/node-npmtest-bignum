@@ -1,4 +1,7 @@
-# test coverage for  [bignum (v0.12.5)](https://github.com/justmoon/node-bignum#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-bignum.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bignum) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bignum.svg)](https://travis-ci.org/npmtest/node-npmtest-bignum)
+# npmtest-bignum
+
+#### basic test coverage for  [bignum (v0.12.5)](https://github.com/justmoon/node-bignum#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-bignum.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bignum) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bignum.svg)](https://travis-ci.org/npmtest/node-npmtest-bignum)
+
 #### Arbitrary-precision integer arithmetic using OpenSSL
 
 [![NPM](https://nodei.co/npm/bignum.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/bignum)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-bignum/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-bignum/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-bignum/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-bignum/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-bignum/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-bignum/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-bignum/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-bignum/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-bignum/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-bignum/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-bignum/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-bignum/build/coverage.html/index.html)
 
@@ -103,7 +106,8 @@
         "install": "node-pre-gyp install --fallback-to-build",
         "test": "standard && tap test/*.js"
     },
-    "version": "0.12.5"
+    "version": "0.12.5",
+    "bin": {}
 }
 ```
 
